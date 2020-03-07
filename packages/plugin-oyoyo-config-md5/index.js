@@ -36,6 +36,7 @@ module.exports = (cli, pluginConfig) => {
           cli.generator.run('gen-oyoyo-create-config-md5', {
             md5: newOyoyoConfigMd5
           })
+          return true
         }
         return false
       }

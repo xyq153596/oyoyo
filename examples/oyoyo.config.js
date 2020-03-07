@@ -12,8 +12,8 @@ module.exports = {
         }
       }
     ],
-    // '@web/plugin-webpack-ts',
-    // '@web/plugin-webpack-babel',
+    '@web/plugin-webpack-ts',
+    '@web/plugin-webpack-babel',
     ['@web/plugin-jest'],
     [
       '@web/plugin-webpack-select-env',

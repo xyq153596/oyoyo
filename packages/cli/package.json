@@ -10,6 +10,9 @@
     "oyoyo": "bin/index.js"
   },
   "dependencies": {
+    "@oyoyo/plugin-oyoyo-config": "^0.2.2",
+    "@oyoyo/plugin-oyoyo-config-md5": "^0.2.2",
+    "@oyoyo/plugin-oyoyo-register-newplugindir": "^0.2.2",
     "conf": "^6.2.1",
     "fast-glob": "^3.2.2",
     "fs-extra": "^8.1.0",

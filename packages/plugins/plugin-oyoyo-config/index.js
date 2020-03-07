@@ -23,5 +23,3 @@ module.exports = (cli, pluginConfig) => {
     )
   })
 }
-
-console.log(1)

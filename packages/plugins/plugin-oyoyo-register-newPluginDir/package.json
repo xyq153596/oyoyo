@@ -1,6 +1,6 @@
 {
   "name": "@oyoyo/plugin-oyoyo-register-newplugindir",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "author": "xyq153596",
   "license": "MIT",

@@ -9,7 +9,7 @@
   "bin": {
     "oyoyo": "bin/index.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "conf": "^6.2.1",
     "fast-glob": "^3.2.2",
     "fs-extra": "^8.1.0",

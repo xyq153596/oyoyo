@@ -1,0 +1,7 @@
+{
+  "name": "@oyoyo/plugin-oyoyo-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xyq153596",
+  "license": "MIT"
+}

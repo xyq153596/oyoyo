@@ -1,6 +1,6 @@
 {
   "name": "@oyoyo/cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "bin/index.js",
   "license": "MIT",
   "bin": {
@@ -13,5 +13,6 @@
     "handlebars": "^4.7.3",
     "inquirer": "^7.0.4",
     "strip-ansi": "^6.0.0"
-  }
+  },
+  "gitHead": "06c51858931a767d84388b599786c92fe5021ced"
 }

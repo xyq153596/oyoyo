@@ -1,6 +1,6 @@
 {
   "name": "@oyoyo/plugin-oyoyo-register-newplugindir",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "index.js",
   "author": "xyq153596",
   "license": "MIT",
@@ -10,5 +10,5 @@
   "dependencies": {
     "conf": "^6.2.1"
   },
-  "gitHead": "2a285b8f409dfffa85f830491d864bbfcbf5ea0f"
+  "gitHead": "bc10e55ee207c199a518855035c462c6b76d78a0"
 }

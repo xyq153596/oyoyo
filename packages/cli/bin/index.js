@@ -17,14 +17,14 @@ if (isConfigExist) {
   service.loadPlugins(
     [
       '@oyoyo/plugin-oyoyo-config',
-      '@oyoyo/plugin-oyoyo-register-newPluginDir',
+      '@oyoyo/plugin-oyoyo-register-newplugindir',
       '@oyoyo/plugin-oyoyo-config-md5'
     ].concat(oyoyoConfig.plugins)
   )
 } else {
   service.loadPlugins([
     '@oyoyo/plugin-oyoyo-config',
-    '@oyoyo/plugin-oyoyo-register-newPluginDir'
+    '@oyoyo/plugin-oyoyo-register-newplugindir'
   ])
 }
 

@@ -1,0 +1,10 @@
+{
+  "name": "@oyoyo/plugin-oyoyo-register-newPluginDir",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xyq153596",
+  "license": "MIT",
+  "devDependencies": {
+    "conf": "^6.2.1"
+  }
+}

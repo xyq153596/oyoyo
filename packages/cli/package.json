@@ -1,0 +1,17 @@
+{
+  "name": "@oyoyo/cli",
+  "version": "0.1.0",
+  "main": "bin/index.js",
+  "license": "MIT",
+  "bin": {
+    "oyoyo": "bin/index.js"
+  },
+  "devDependencies": {
+    "conf": "^6.2.1",
+    "fast-glob": "^3.2.2",
+    "fs-extra": "^8.1.0",
+    "handlebars": "^4.7.3",
+    "inquirer": "^7.0.4",
+    "strip-ansi": "^6.0.0"
+  }
+}

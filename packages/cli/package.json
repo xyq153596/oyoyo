@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "main": "bin/index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "oyoyo": "bin/index.js"
   },

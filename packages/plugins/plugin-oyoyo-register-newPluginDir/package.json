@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "xyq153596",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "conf": "^6.2.1"
   }

@@ -1,6 +1,9 @@
 {
   "name": "@oyoyo/plugin-oyoyo-config",
   "version": "0.1.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "author": "xyq153596",
   "license": "MIT",

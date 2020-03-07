@@ -1,6 +1,6 @@
 {
   "name": "@oyoyo/plugin-oyoyo-config-md5",
-  "version": "0.2.3",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "xyq153596",
   "license": "MIT",
@@ -8,8 +8,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@oyoyo/plugin-oyoyo-config": "^0.2.3",
-    "@oyoyo/plugin-oyoyo-register-newplugindir": "^0.2.3",
+    "@oyoyo/plugin-oyoyo-config": "^0.1.0",
+    "@oyoyo/plugin-oyoyo-register-newplugindir": "^0.1.0",
     "blueimp-md5": "^2.12.0",
     "fs-extra": "^8.1.0"
   },

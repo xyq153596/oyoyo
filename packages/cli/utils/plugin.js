@@ -29,7 +29,7 @@ exports.transformPluginConfig = pluginConfig => {
 }
 
 exports.resolveLocalPlugin = name => {
-  return path.resolve(__dirname, '../../plugins/', name.replace(officialRE, ''))
+  return path.resolve(__dirname, '../../', name.replace(officialRE, ''))
 }
 
 exports.resolveCustomPlugin = name => {

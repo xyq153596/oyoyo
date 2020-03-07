@@ -5,7 +5,7 @@ module.exports = (cli, pluginConfig) => {
       use: path.resolve(__dirname, './template')
     })
   })
-  console.log(1)
+
   cli.hook('command', () => {
     cli.command.registerCommand(
       'cmd-oyoyo-create-config',

@@ -1,6 +1,6 @@
 {
   "name": "@oyoyo/cli",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "bin/index.js",
   "license": "MIT",
   "publishConfig": {
@@ -10,8 +10,8 @@
     "oyoyo": "bin/index.js"
   },
   "dependencies": {
-    "@oyoyo/plugin-oyoyo-config": "^0.3.0",
-    "@oyoyo/plugin-oyoyo-config-md5": "^0.3.0",
+    "@oyoyo/plugin-oyoyo-config": "^0.3.1",
+    "@oyoyo/plugin-oyoyo-config-md5": "^0.3.1",
     "@oyoyo/plugin-oyoyo-register-newplugindir": "^0.3.0",
     "conf": "^6.2.1",
     "fast-glob": "^3.2.2",

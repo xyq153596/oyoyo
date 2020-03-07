@@ -1,5 +1,5 @@
 {
-  "name": "@oyoyo/plugin-oyoyo-register-newPluginDir",
+  "name": "@oyoyo/plugin-oyoyo-register-newplugindir",
   "version": "0.2.0",
   "main": "index.js",
   "author": "xyq153596",
@@ -9,5 +9,6 @@
   },
   "devDependencies": {
     "conf": "^6.2.1"
-  }
+  },
+  "gitHead": "2a285b8f409dfffa85f830491d864bbfcbf5ea0f"
 }

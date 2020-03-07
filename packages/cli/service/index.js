@@ -16,7 +16,6 @@ const {
   info,
   done
 } = require('../utils')
-
 class Service extends Hookable {
   constructor(context, plugins = []) {
     super()

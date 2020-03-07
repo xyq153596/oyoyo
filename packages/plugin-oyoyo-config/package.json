@@ -1,6 +1,6 @@
 {
   "name": "@oyoyo/plugin-oyoyo-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "publishConfig": {
     "access": "public"
   },
@@ -9,7 +9,7 @@
   "license": "MIT",
   "gitHead": "2a285b8f409dfffa85f830491d864bbfcbf5ea0f",
   "dependencies": {
-    "@oyoyo/plugin-oyoyo-config-md5": "^0.1.2",
-    "@oyoyo/plugin-oyoyo-register-newplugindir": "^0.1.2"
+    "@oyoyo/plugin-oyoyo-config-md5": "^0.2.0",
+    "@oyoyo/plugin-oyoyo-register-newplugindir": "^0.2.0"
   }
 }

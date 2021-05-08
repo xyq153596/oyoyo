@@ -20,6 +20,23 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
+"@oyoyo/plugin-oyoyo-config-md5@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@oyoyo/plugin-oyoyo-config-md5/-/plugin-oyoyo-config-md5-0.3.1.tgz#ab9976750d164391c2a9f03b51a58a7d0041d0d9"
+  dependencies:
+    blueimp-md5 "^2.12.0"
+    fs-extra "^8.1.0"
+
+"@oyoyo/plugin-oyoyo-config@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@oyoyo/plugin-oyoyo-config/-/plugin-oyoyo-config-0.3.1.tgz#c75a95769631290e4cca35c4f1a3040e9109136a"
+
+"@oyoyo/plugin-oyoyo-register-newplugindir@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@oyoyo/plugin-oyoyo-register-newplugindir/-/plugin-oyoyo-register-newplugindir-0.3.0.tgz#0bdc5e09680e34fcd47fb9e9dfcd8fb96fd4e65f"
+  dependencies:
+    conf "^6.2.1"
+
 ajv@^6.10.2:
   version "6.12.0"
   resolved "https://registry.npm.taobao.org/ajv/download/ajv-6.12.0.tgz#06d60b96d87b8454a5adaba86e7854da629db4b7"
@@ -48,6 +65,10 @@ ansi-styles@^3.2.1:
   resolved "https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
   dependencies:
     color-convert "^1.9.0"
+
+blueimp-md5@^2.12.0:
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/blueimp-md5/-/blueimp-md5-2.18.0.tgz#1152be1335f0c6b3911ed9e36db54f3e6ac52935"
 
 braces@^3.0.1:
   version "3.0.2"
@@ -200,12 +221,13 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
 
 handlebars@^4.7.3:
-  version "4.7.3"
-  resolved "https://registry.npm.taobao.org/handlebars/download/handlebars-4.7.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhandlebars%2Fdownload%2Fhandlebars-4.7.3.tgz#8ece2797826886cf8082d1726ff21d2a022550ee"
+  version "4.7.7"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
   dependencies:
+    minimist "^1.2.5"
     neo-async "^2.6.0"
-    optimist "^0.6.1"
     source-map "^0.6.1"
+    wordwrap "^1.0.0"
   optionalDependencies:
     uglify-js "^3.1.4"
 
@@ -317,9 +339,9 @@ mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/mimic-fn/download/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
 
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "https://registry.npm.taobao.org/minimist/download/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
+minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
 
 mute-stream@0.0.8:
   version "0.0.8"
@@ -334,13 +356,6 @@ onetime@^5.1.0:
   resolved "https://registry.npm.taobao.org/onetime/download/onetime-5.1.0.tgz#fff0f3c91617fe62bb50189636e99ac8a6df7be5"
   dependencies:
     mimic-fn "^2.1.0"
-
-optimist@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.npm.taobao.org/optimist/download/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
 
 os-tmpdir@~1.0.2:
   version "1.0.2"
@@ -496,9 +511,9 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://registry.npm.taobao.org/wordwrap/download/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+wordwrap@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
 
 write-file-atomic@^3.0.0:
   version "3.0.3"

@@ -20,6 +20,23 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
+"@oyoyo/plugin-oyoyo-config-md5@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@oyoyo/plugin-oyoyo-config-md5/-/plugin-oyoyo-config-md5-0.3.1.tgz#ab9976750d164391c2a9f03b51a58a7d0041d0d9"
+  dependencies:
+    blueimp-md5 "^2.12.0"
+    fs-extra "^8.1.0"
+
+"@oyoyo/plugin-oyoyo-config@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@oyoyo/plugin-oyoyo-config/-/plugin-oyoyo-config-0.3.1.tgz#c75a95769631290e4cca35c4f1a3040e9109136a"
+
+"@oyoyo/plugin-oyoyo-register-newplugindir@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@oyoyo/plugin-oyoyo-register-newplugindir/-/plugin-oyoyo-register-newplugindir-0.3.0.tgz#0bdc5e09680e34fcd47fb9e9dfcd8fb96fd4e65f"
+  dependencies:
+    conf "^6.2.1"
+
 ajv@^6.10.2:
   version "6.12.0"
   resolved "https://registry.npm.taobao.org/ajv/download/ajv-6.12.0.tgz#06d60b96d87b8454a5adaba86e7854da629db4b7"
@@ -48,6 +65,10 @@ ansi-styles@^3.2.1:
   resolved "https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
   dependencies:
     color-convert "^1.9.0"
+
+blueimp-md5@^2.12.0:
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/blueimp-md5/-/blueimp-md5-2.18.0.tgz#1152be1335f0c6b3911ed9e36db54f3e6ac52935"
 
 braces@^3.0.1:
   version "3.0.2"
@@ -190,8 +211,8 @@ fs-extra@^8.1.0:
     universalify "^0.1.0"
 
 glob-parent@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npm.taobao.org/glob-parent/download/glob-parent-5.1.0.tgz#5f4c1d1e748d30cd73ad2944b3577a81b081e8c2"
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
   dependencies:
     is-glob "^4.0.1"
 
@@ -243,7 +264,7 @@ inquirer@^7.0.4:
 
 is-extglob@^2.1.1:
   version "2.1.1"
-  resolved "https://registry.npm.taobao.org/is-extglob/download/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
+  resolved "https://registry.yarnpkg.com/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
 
 is-fullwidth-code-point@^3.0.0:
   version "3.0.0"
@@ -251,7 +272,7 @@ is-fullwidth-code-point@^3.0.0:
 
 is-glob@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.npm.taobao.org/is-glob/download/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
+  resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
   dependencies:
     is-extglob "^2.1.1"
 
